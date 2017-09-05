@@ -1,0 +1,27 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khgkjg12.examples.fragment1.BookListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:id="@+id/bookSelectGroup"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <RadioButton
+            android:id="@+id/dynamicUiBook"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/dynamicUiTitle"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/android4NewBook"
+            android:text="@string/android4NewTitle"/>
+
+    </RadioGroup>
+
+</ScrollView>

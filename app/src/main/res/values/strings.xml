@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">fragment1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dynamicUiTitle">Dynamic UI</string>
+    <string name="android4NewTitle">android for new developer</string>
+    <string name="dynamicUiDescription">Dynamic Ui is an incredible book which has good example and fine code samples. \n It is very famous among programmers. Try and get money right now</string>
+</resources>
