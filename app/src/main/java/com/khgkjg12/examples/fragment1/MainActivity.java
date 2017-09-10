@@ -4,13 +4,14 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends Activity implements BookListFragment.OnSelectedBookChangeListener {
+public class MainActivity extends Activity implements BookListFragment.OnSelectedBookChangeListener,MyDialogFragment.OnButtonClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        MyDialogFragment theDialog = new MyDialogFragment();
+        theDialog.show(getFragmentManager(),null);
     }
 
     @Override
@@ -26,5 +27,10 @@ public class MainActivity extends Activity implements BookListFragment.OnSelecte
         }else {
             bookDescFragment.setBook(bookIndex);
         }
+    }
+
+    @Override
+    public void onButtonClick(int buttonId) {
+
     }
 }
