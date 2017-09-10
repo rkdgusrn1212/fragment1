@@ -14,4 +14,13 @@
         android:id="@+id/fragmentTitles"
         tools:layout="@layout/fragment_book_list" />
 
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="com.khgkjg12.examples.fragment1.BookDescFragment"
+        android:id="@+id/fragmentDescription"
+        tools:layout="@layout/fragment_book_desc" />
+
 </LinearLayout>
