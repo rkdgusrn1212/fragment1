@@ -30,11 +30,11 @@ public class BookListFragment extends Fragment implements RadioGroup.OnCheckedCh
     @Override
     public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
         int bookIndex = bookIdToBookIndex(i);
-        ((OnSelectedBookChangeListener)getActivity()).OnSeletedBookChanged(bookIndex);
+        ((OnSelectedBookChangeListener)getActivity()).onSeletedBookChanged(bookIndex);
     }
 
     public interface OnSelectedBookChangeListener{
-        void OnSeletedBookChanged(int bookIndex);
+        void onSeletedBookChanged(int bookIndex);
     }
 
     private int bookIdToBookIndex(int id){

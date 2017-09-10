@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="book_list">
+        <item>first head java</item>
+        <item>data structure</item>
+        <item>algorithm</item>
+        <item>operation system</item>
+    </string-array>
     <string-array name="book_descriptions">
-        <item>킹왕짱 갓 엠퍼럴 책</item>
-        <item>그냥 노말노말 초심자가 읽을만한 책</item>
+        <item>자바의 처음부터 끝까지!!</item>
+        <item>국형준 교수님의 재미있는 자료구조 수업!. 다양한 실습 예제 포함.</item>
+        <item>알고리즘의 다양한 적용과 응용. 다양한 실습예제를 통한 실력향상</item>
+        <item>재미없는 운영체제를 재미없게 풀어낸 환상적인 운영체제 서적!!</item>
     </string-array>
 </resources>

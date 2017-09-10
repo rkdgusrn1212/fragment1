@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:name="com.khgkjg12.examples.fragment1.BookListFragment"
+        android:name="com.khgkjg12.examples.fragment1.BookListFragment2"
         android:id="@+id/fragmentTitles"
         tools:layout="@layout/fragment_book_list" />
 
