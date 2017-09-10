@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements BookListFragment.OnSelecte
 
         if(bookDescFragment==null||!bookDescFragment.isInLayout()){
             //isInLayout()을 통해 fragment instance 가 현재 activity 의 view hierarchy 에 포함되는지 확인.
-            //destroyed()된 이전 activity state의 fragment instance를 걸러낸다.
+            //backstack에 있는 다른 orientation의 layout에 포함된 fragment instance를 걸러낸다.
             Intent intent = new Intent(this, BookDescActivity.class);
             intent.putExtra("bookIndex",bookIndex);
             startActivity(intent);
