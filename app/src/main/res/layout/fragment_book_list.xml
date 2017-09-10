@@ -14,8 +14,7 @@
             android:id="@+id/dynamicUiBook"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/dynamicUiTitle"
-            android:checked="true"/>
+            android:text="@string/dynamicUiTitle" />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
